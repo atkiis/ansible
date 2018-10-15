@@ -1,4 +1,5 @@
-(Use at own risk)
-Run setup.sh
+<b>(Use at own risk)</b>
 
-Installation done.
+1. Run setup.sh
+2. Follow instructions.
+3. Installation done.
