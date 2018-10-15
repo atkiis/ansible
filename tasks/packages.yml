@@ -1,7 +1,34 @@
 - name: Install packages
   apt: name={{item}}
   with_items:
-    - htop
-    - mc
-    - tmux
+    - gitg
+    - virtualbox
+    - qemu
+    - chromium-browser
+    - terminator
+    - skype
+    - firefox
+    - vlc
+    - audacity
+    - filezilla
+    - libreoffice
+    - baobab
+    - golang-go
+    - gparted
+    - quicksynergy
+    - simple-scan
+    - usb-creator-gtk
+    - virt-manager
+    - wireshark
+    - synergy
+    - gimp
+    - ansible
+    - vagrant
+    - intellij
+    - spotify
+    - slack
+    - dropbox
+    - hangout
+    - docker
+    - visual-studio-code
 

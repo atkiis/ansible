@@ -1,8 +1,15 @@
-- hosts: localhost
+- hosts: all
   become: true
   pre_tasks:
     - name: update repositories
-      apt: update_cache=yes
+      state: latest
+      packaging_ubuntu_extras_repository: true
+      packaging_ubuntu_partner_repository: true
+      packaging_ubuntu_multiverse_repository: true
+      apt: 
+        name: '*'
+        state: latest
+        update_cache: yes
       changed_when: False
 
   tasks:
