@@ -3,9 +3,6 @@
   pre_tasks:
     - name: update repositories
       state: latest
-      packaging_ubuntu_extras_repository: true
-      packaging_ubuntu_partner_repository: true
-      packaging_ubuntu_multiverse_repository: true
       apt: 
         name: '*'
         state: latest
